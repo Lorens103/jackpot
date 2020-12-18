@@ -132,3 +132,32 @@ footer ul {
 footer li {
   margin: 10px;
 }
+
+.title {
+  font-size: 60px;
+  font-weight:700;
+  color: #2f2e41;
+  margin: 10px;
+  margin-left: 20px;
+  background: none;
+  border: none;
+}
+
+.osw {
+  font-size: 10px;
+}
+
+.headerText {
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 40px;
+  max-width: 500px;
+  float: right;
+  transform: translate(230%, 50%);
+  position: absolute;
+}
+
+.headerText h1 {
+  color: #2f2e41;
+  font-size: 40px;
+}
