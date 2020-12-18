@@ -8,31 +8,33 @@ function App() {
   const wrapper = useRef(null);
 
   useEffect(() => {
+
     const floor = document.querySelectorAll(".floor");
 
     const tl = gsap.timeline({ defaults: { ease: "power3.inOut" } });
 
-    gsap.set([], { opacity: 0 });
+    gsap.set([/* gsap animations elements in "" */], { opacity: 0 });
 
     tl.fromTo(floor, { opacity: 0 }, { opacity: 1, repeat: -1 });
 
   });
 
   return (
-    <div ref={ wrapper }>
+    <div ref={wrapper}>
       <button className="newsletter">
         <b>Join to newsletter</b>
       </button>
       <header>
         <div className="nav">
-          <button className="title">Jackpot<span className="osw"> osw</span></button>
+          <button className="title">
+            Jackpot<span className="osw"> osw</span>
+          </button>
           <button className="login">
             <b>Login with Steam </b>it's Free
           </button>
         </div>
-
         <div className="headerText">
-        <h1 className='headerTitle'>What is Jackpot?!</h1>
+          <h1 className="headerTitle">What is Jackpot?!</h1>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <br />
