@@ -1,0 +1,134 @@
+.newsletter {
+  background-color: #6c63ff;
+  color: #fff;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px transparent;
+  transition: 0.4s ease;
+  margin: 20px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.newsletter:hover {
+  color: #6c63ff;
+  background-color: transparent;
+  border: 1px solid #6c63ff;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+article {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: #2f2e41;
+}
+
+.conatinerTwoTitle {
+  font-size: 40px;
+}
+
+.containerTwoText {
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+.nav {
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+}
+
+button {
+  cursor: pointer;
+}
+
+.login {
+  background-color: #6c63ff;
+  color: #fff;
+  width: 210px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px transparent;
+  transition: 0.4s ease;
+  margin: 20px;
+  margin-right: 35px;
+  float: right;
+  bottom: 0px;
+  right: 0px;
+}
+
+.login:hover {
+  color: #6c63ff;
+  background-color: transparent;
+  border: 1px solid #6c63ff;
+}
+
+.money {
+  display: flex;
+  justify-content: center;
+}
+
+.moneyButton {
+  background-color: #6c63ff;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px transparent;
+  transition: 0.4s ease;
+  font-size: 18px;
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.moneyButton:hover {
+  color: #6c63ff;
+  background-color: #ffffff;
+  border: 1px solid #6c63ff;
+}
+
+.moneyPhoto {
+  height: 90vh;
+  margin-top: 3%;
+  margin-right: 2vw;
+}
+
+.moneyTitle {
+  font-size: 100px;
+  color: #2f2e41;
+  margin-top: 40vh;
+}
+
+footer {
+  height: 30vh;
+  background: #2f2e41 url("data.svg") no-repeat;
+  background-position-x: 50px;
+  background-position-y: 50px;
+  color: #fff;
+}
+
+footer ul {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  list-style-type: none;
+  list-style: none;
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 18px;
+}
+
+footer li {
+  margin: 10px;
+}
