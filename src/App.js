@@ -4,6 +4,7 @@ import { ReactComponent as Money } from "./money.svg";
 import gsap from "gsap";
 
 function App() {
+
   const wrapper = useRef(null);
 
   useEffect(() => {
@@ -14,6 +15,7 @@ function App() {
     gsap.set([], { opacity: 0 });
 
     tl.fromTo(floor, { opacity: 0 }, { opacity: 1, repeat: -1 });
+
   });
 
   return (
@@ -23,16 +25,14 @@ function App() {
       </button>
       <header>
         <div className="nav">
-          <button className="title">
-            Jackpot<span className="osw"> osw</span>
-          </button>
+          <button className="title">Jackpot<span className="osw"> osw</span></button>
           <button className="login">
             <b>Login with Steam </b>it's Free
           </button>
         </div>
 
         <div className="headerText">
-          <h1>Co to Jackpot?!</h1>
+        <h1 className='headerTitle'>What is Jackpot?!</h1>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <br />

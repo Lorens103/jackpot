@@ -7,6 +7,7 @@
   border: 1px transparent;
   transition: 0.4s ease;
   margin: 20px;
+  margin-right: 20px;
   position: fixed;
   bottom: 0px;
   right: 0px;
@@ -27,7 +28,6 @@ article {
   width: 100vw;
   height: 100vh;
   text-align: center;
-  color: #2f2e41;
 }
 
 .conatinerTwoTitle {
@@ -105,7 +105,6 @@ button {
 
 .moneyTitle {
   font-size: 100px;
-  color: #2f2e41;
   margin-top: 40vh;
 }
 
@@ -136,15 +135,16 @@ footer li {
 .title {
   font-size: 60px;
   font-weight:700;
-  color: #2f2e41;
   margin: 10px;
   margin-left: 20px;
   background: none;
   border: none;
+  color: #2f2e41;
 }
 
 .osw {
   font-size: 10px;
+  color: #2f2e41;
 }
 
 .headerText {
@@ -157,7 +157,7 @@ footer li {
   position: absolute;
 }
 
-.headerText h1 {
+.headerTitle {
   color: #2f2e41;
   font-size: 40px;
 }
