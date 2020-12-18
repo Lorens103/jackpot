@@ -15,7 +15,7 @@ function App() {
 
     gsap.set([], { opacity: 0 } );
 
-    tl.fromTo(floor, { opacity: 0 }, { opacity: 1, repeat: -1 })  
+    tl.fromTo(floor, { opacity: 0 }, { opacity: 1, repeat: -1 })
 
   });
 
