@@ -6,8 +6,7 @@
   border-radius: 20px;
   border: 1px transparent;
   transition: 0.4s ease;
-  margin: 20px;
-  margin-right: 20px;
+  margin: 20px 20px 20px 20px;
   position: fixed;
   bottom: 0px;
   right: 0px;
@@ -26,7 +25,7 @@ header {
 
 article {
   width: 100vw;
-  height: 125vh;
+  height: 125%;
   text-align: center;
 }
 
@@ -59,10 +58,9 @@ button {
   border-radius: 20px;
   border: 1px transparent;
   transition: 0.4s ease;
-  margin: 20px;
-  margin-right: 35px;
-  float: right;
-  bottom: 0px;
+  margin: 20px 20px 20px 20px;
+  position: fixed;
+  top: 0px;
   right: 0px;
 }
 
@@ -167,6 +165,6 @@ footer li {
 
 #snake-canvas {
   border:15px solid #6c63ff;
-  border-radius: 100px;
+  top: -1.5em;
   position: relative;
 }

@@ -8,8 +8,6 @@ function App() {
   const randomInt = Math.floor(Math.random() * 100) + 1;
   console.log(randomInt);
 
-
-
 function Snake() {
   window.addEventListener("load", () => {
     let snake, move, nextMove, points, apple, running;
@@ -109,8 +107,6 @@ function Snake() {
 }
 
 Snake();
-
-
 
   const wrapper = useRef(null);
 
