@@ -6,7 +6,7 @@
   border-radius: 20px;
   border: 1px transparent;
   transition: 0.4s ease;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 21px 20px;
   position: fixed;
   bottom: 0px;
   right: 0px;
@@ -18,10 +18,6 @@
   border: 1px solid #6c63ff;
 }
 
-header {
-  width: 100vw;
-  height: 100vh;
-}
 
 article {
   width: 100vw;
@@ -40,12 +36,6 @@ article {
   font-size: 18px;
 }
 
-.nav {
-  width: 100vw;
-  height: 80px;
-  position: fixed;
-}
-
 button {
   cursor: pointer;
 }
@@ -58,7 +48,7 @@ button {
   border-radius: 20px;
   border: 1px transparent;
   transition: 0.4s ease;
-  margin: 20px 20px 20px 20px;
+  margin: 21px 20px 20px 20px;
   position: fixed;
   top: 0px;
   right: 0px;
@@ -98,13 +88,11 @@ button {
 
 .moneyPhoto {
   height: 90vh;
-  margin-top: 3%;
-  margin-right: 2vw;
 }
 
 .moneyTitle {
   font-size: 100px;
-  margin-top: 40vh;
+  margin-top: 30vh;
 }
 
 footer {
@@ -139,6 +127,8 @@ footer li {
   background: none;
   border: none;
   color: #2f2e41;
+  left: 0%;
+  position: absolute;
 }
 
 .osw {
@@ -163,8 +153,30 @@ footer li {
   font-size: 40px;
 }
 
-#snake-canvas {
-  border:15px solid #6c63ff;
-  top: -1.5em;
-  position: relative;
+.nav {
+  display: flex;
+  color: #2f2e41;
+}
+
+.navList {
+  margin: 0 auto;
+  padding: 2em;
+  list-style-type: none;
+}
+
+.navListItem {
+  display: inline;
+  padding: 1em;
+}
+
+.navListItem button {
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  transition: ease-in-out 0.1s;
+}
+
+.navListItem button:hover {
+  color: #6c63ff;
+  transform: scale(1.1);
 }
