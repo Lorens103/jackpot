@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./App.css";
 import { ReactComponent as Money } from "./money.svg";
-import { ReactComponent as Tracker } from "./tracker.svg";
+//import { ReactComponent as Tracker } from "./tracker.svg";
 import gsap from "gsap";
 
 function App() {
