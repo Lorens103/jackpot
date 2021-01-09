@@ -91,7 +91,6 @@ function App() {
           <br /> Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore eu fugiat nulla pariatur.
         </p>
-        <canvas id="snake-canvas" width="900" height="900"></canvas>
       </article>
       <footer>
       </footer>
