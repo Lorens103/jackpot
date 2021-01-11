@@ -12,14 +12,12 @@ function App() {
   const wrapper = useRef(null);
 
   useEffect(() => {
-    const floor = document.querySelectorAll(".floor");
 
+    const floor = document.querySelectorAll(".floor");
     const tl = gsap.timeline({ defaults: { ease: "power3.inOut" } });
 
     gsap.set(
-      [
-        /* gsap animations elements in "" */
-      ],
+      [ /* gsap animations elements in "" */ ],
       { opacity: 0 }
     );
 
